@@ -1,0 +1,17 @@
+name: MegaPlugin
+version: @version@
+main: iamhardliner.megaplugin.Plugin
+author: iamhardliner
+api-version: "1.14"
+commands:
+  tempdeop:
+    description: Deops user temporarily
+    usage: /tempdeop [time]
+    aliases: tdeop
+  randomenchant:
+    description: randomly enchants an item from a given player
+    usage: /randomenchant <player>
+    aliases: renchant
+  # abc:
+  #   description: abc
+  #   usage: /abc
